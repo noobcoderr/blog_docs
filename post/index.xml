@@ -6,28 +6,10 @@
     <description>Recent content in Posts on NoobCoder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 17 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 May 2021 23:11:43 +0800</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Kong的使用</title>
-      <link>/post/kong/</link>
-      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/post/kong/</guid>
-      <description>Kong以及Konga的调研使用 前言 调研使用Kong的背景是想使用灰度发布我们的服务，然后老大说kong不错，于是我们就开始调研Kong，于</description>
-    </item>
-    
-    <item>
-      <title>Python热更原理与应用</title>
-      <link>/post/hot_patching/</link>
-      <pubDate>Thu, 20 May 2021 14:28:43 +0800</pubDate>
-      
-      <guid>/post/hot_patching/</guid>
-      <description>背景 其实到写这篇文章的这一刻，我都对热更这个词以及背后所代表的技术，没有一个完整的了解。 在此之前，我只是听说过项目组经常对线上已经发布的版本</description>
-    </item>
     
     <item>
       <title>2021年5月计划</title>
@@ -35,7 +17,7 @@
       <pubDate>Wed, 19 May 2021 23:11:43 +0800</pubDate>
       
       <guid>/post/2021_05_planings/</guid>
-      <description>要总结的系列 《Python热更的原理与应用》 《Python元类的原理与应用》 《Redis的key的匹配命令选择》 《Redis的key数据迁移</description>
+      <description>要总结的系列 《Python热更的原理与应用》 《Python元类的原理与应用》 要思考清楚的问题 如何整理现有系统的全部信息 如何接手/上手一个新项</description>
     </item>
     
     <item>
