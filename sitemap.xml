@@ -9,32 +9,47 @@
   
   <url>
     <loc>http://www.moyuto.top/categories/</loc>
-    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.moyuto.top/</loc>
-    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.moyuto.top/post/</loc>
-    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.moyuto.top/tags/</loc>
-    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.moyuto.top/categories/tech/</loc>
-    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.moyuto.top/tags/%E8%A7%84%E5%88%92/</loc>
-    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.moyuto.top/post/api_design_style/</loc>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.moyuto.top/post/target/</loc>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.moyuto.top/post/timewheel/</loc>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -55,6 +70,16 @@
   <url>
     <loc>http://www.moyuto.top/post/question_a_day_20200412/</loc>
     <lastmod>2020-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.moyuto.top/post/golang_range/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.moyuto.top/tags/%E5%B7%A5%E4%BD%9C/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -84,11 +109,6 @@
   
   <url>
     <loc>http://www.moyuto.top/post/becomewhite/</loc>
-    <lastmod>2019-09-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.moyuto.top/tags/%E5%B7%A5%E4%BD%9C/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -268,16 +288,6 @@
   </url>
   
   <url>
-    <loc>http://www.moyuto.top/tags/https/</loc>
-    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.moyuto.top/post/https/</loc>
-    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.moyuto.top/tags/hugo/</loc>
     <lastmod>2019-09-10T20:56:47+08:00</lastmod>
   </url>
@@ -290,11 +300,6 @@
   <url>
     <loc>http://www.moyuto.top/tags/travis/</loc>
     <lastmod>2019-09-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.moyuto.top/tags/%E5%8F%8C%E5%90%91%E6%95%B0%E5%AD%97%E9%AA%8C%E8%AF%81/</loc>
-    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -315,26 +320,6 @@
   <url>
     <loc>http://www.moyuto.top/post/fst-post/</loc>
     <lastmod>2019-08-22T00:34:58+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.moyuto.top/post/api_design_style/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.moyuto.top/post/golang_range/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.moyuto.top/post/target/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.moyuto.top/post/timewheel/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

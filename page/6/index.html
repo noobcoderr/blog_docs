@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
-    <meta property="og:site_name" content="NoobCoder">
+    <meta property="og:site_name" content="MoYuCoder">
     <meta property="og:type" content="article">
 
     
@@ -37,7 +37,7 @@
     <meta name="keyword"  content="PaaS, Istio, Kubernetes, Microservice">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>NoobCoder-Hugo Blog | Golang Blog</title>
+    <title>MoYuCoder-Hugo Blog | Golang Blog</title>
 
     <link rel="canonical" href="/">
 
@@ -124,7 +124,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">NoobCoder</a>
+            <a class="navbar-brand" href="/">MoYuCoder</a>
         </div>
 
         
@@ -195,7 +195,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
                 <div class="site-heading">
-                    <h1>NoobCoder </h1>
+                    <h1>MoYuCoder </h1>
                     
 		    <span class="subheading"></span>
                 </div>
@@ -219,6 +219,75 @@
             post-container
         ">
             
+
+<div class="post-preview">
+    <a href="http://www.moyuto.top/post/concurrent/">
+        <h2 class="post-title">
+            并发
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            并发？并发的难点？并发与golang？
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    作者      NoobCoder 
+    <span>     创建于 </span>2019-09-11
+    
+    
+    <br>修改于 2019-09-20
+    
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="http://www.moyuto.top/post/aseemblylanguage/">
+        <h2 class="post-title">
+            汇编语言的简单学习与入门
+        </h2>
+	
+        <h3 class="post-subtitle">
+            汇编？超底层的！
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            什么是汇编？为什么要用汇编？优缺点？
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    作者 Jzhang 
+    <span>     创建于 </span>2019-09-07
+    
+    
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="http://www.moyuto.top/post/test_travis_ci/">
+        <h2 class="post-title">
+            hugo博客使用持续集成工具travis-ci
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            hugo博客使用持续集成工具travis-ci 遇到的几个坑 1、 global: ​ Github Pages ​ GH_REF: github.com/noobcoderr/noobcoderr.github.io.git ​ GH_REF 后的链接加了个https，导致ci时没有access 2、 travis ci
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    作者      NoobCoder 
+    <span>     创建于 </span>2019-09-04
+    
+    
+    </p>
+</div>
+<hr>
 
 <div class="post-preview">
     <a href="http://www.moyuto.top/post/clasiccase/">
@@ -285,96 +354,6 @@
 </div>
 <hr>
 
-<div class="post-preview">
-    <a href="http://www.moyuto.top/post/api_design_style/">
-        <h2 class="post-title">
-            
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            API设计风格之RESTful和RPC风格 最近几件事让我对API的设计风格有了更多的认识。
-1、开发谷歌支付后端时，需要调用谷歌billing库对谷歌订单进行确认操作，这样用户三天之内就无法退款了，该接口描述是If successful, this method returns an empty response body. 一开始我以为是调用成功是返回status200，如果成功则是空body，失败则是包含具体错误信息的json，但是后来发现成功是204和空body，失败是4xx系列错误和包含错误信息的jsonbody，当时还理解不了为什么这么设计。
-2、在看一门golang的视频教程的时候，视频一开始就进行API设计，其实讲的就是REST风格的设计。
-之前的疑惑，顿时有了茅塞顿开的感觉，从最开始的时候不知道什么是RESTful风格，到后懵懂的觉得应该是用各种http方法来执行请求，再到后来的基于资源的请求，让我慢慢的解开了之前的一些疑惑，并且，加深了我对HTTP状态码的理解(记得之前校招面一次看一次，过不久就忘了)，之前都是200，然后成功/错误信息全放里面。
-搜了搜REST风格的详情之后，发现还有些其他常见的API风格，如RPC，GraphQL等，而自己目前写的起始就是RPC风格的API，其实哪一种好哪一种不好，目前我也谈不上，暂且记录和总结一下自己看过的文章吧。
-RPC风格 最常见，面向过程
-REST风格 逐渐变的多了起来，面向资源
-GraphQL风格 联想一下ES的查询接口，就是这个风格，查询放body里面
-总结 其实没必要死磕哪一种风格，哪一种风格最匹配当前的业务场景，就用哪一种。
-参考文章   RESTful API 最佳实践
-  API设计中关于RPC和REST 两种风格选择的个人理解
-  浅谈三种API设计风格RPC、REST、GraphQL
-  
-       
-        </div>
-    </a>
-    <p class="post-meta">
-    作者 NoobCoder 
-    <span>     创建于 </span>0001-01-01
-    
-    
-    </p>
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="http://www.moyuto.top/post/golang_range/">
-        <h2 class="post-title">
-            
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            title: &quot;for range 原理研究&quot; subtitle: &quot;&quot; description: &quot;值传递？？？&quot; date: 2020-01-16 author: NoobCoder image: &quot;&quot; tags: [&quot;工作&quot;] categories: [&quot;Tech&quot; ] golang 之 for range 背景 今天在遍历一个切片结构体时，对遍历到的结构体进行更改操作，结束时发现并没有生效，于是对这一现象进行研究。
-       
-        </div>
-    </a>
-    <p class="post-meta">
-    作者 NoobCoder 
-    <span>     创建于 </span>0001-01-01
-    
-    
-    </p>
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="http://www.moyuto.top/post/target/">
-        <h2 class="post-title">
-            
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            学习计划 方向 云原生 &gt; Saas &gt; docker/k8s &gt; 后端
-计划 基础向 1、计算机网络、http、https、tcp/ip
-2、数据结构：数组、链表、树、图
-3、算法：排序、搜索、
-4、设计模式
-进阶向 源码阅读
-1、golang基础包源码阅读(io map interface goroutine channels )
-GO标准语言库
-2、golang框架源码阅读：echo、docker、grpc、consul、nats
-3、go应用项目
-案例
-以上在家完成基础的计网和算法数据结构
-在公司则可以看看进阶向。
-明天出更详细计划
-比如每个项目，内知识结构，再细化安排时间。到每一天。
-参考  一年经验跳槽  
-       
-        </div>
-    </a>
-    <p class="post-meta">
-    作者 NoobCoder 
-    <span>     创建于 </span>0001-01-01
-    
-    
-    </p>
-</div>
-<hr>
-
 
             
 
@@ -385,10 +364,6 @@ GO标准语言库
         <a href="/page/5/">&larr; Newer Posts</a>
     </li>
     
-    
-    <li class="next">
-        <a href="/page/7/">Older Posts &rarr;</a>
-    </li>
     
 </ul>
 
@@ -432,12 +407,6 @@ GO标准语言库
                 
                     <a href="/tags/golang" title="golang">
                         golang
-                    </a>
-                
-            
-                
-                    <a href="/tags/https" title="https">
-                        https
                     </a>
                 
             
@@ -486,12 +455,6 @@ GO标准语言库
                 
                     <a href="/tags/%E5%86%99%E5%8D%9A%E5%AE%A2" title="写博客">
                         写博客
-                    </a>
-                
-            
-                
-                    <a href="/tags/%E5%8F%8C%E5%90%91%E6%95%B0%E5%AD%97%E9%AA%8C%E8%AF%81" title="双向数字验证">
-                        双向数字验证
                     </a>
                 
             
@@ -576,7 +539,7 @@ GO标准语言库
            <ul class="list-inline"> 
                
                <li>
-                   <a href='/index.xml' rel="alternate" type="application/rss+xml" title="NoobCoder" >
+                   <a href='/index.xml' rel="alternate" type="application/rss+xml" title="MoYuCoder" >
                        <span class="fa-stack fa-lg">
                            <i class="fa fa-circle fa-stack-2x"></i>
                            <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -659,7 +622,7 @@ GO标准语言库
 
                    
                    <li>
-                       <a href='/index.xml' rel="alternate" type="application/rss+xml" title="NoobCoder" >
+                       <a href='/index.xml' rel="alternate" type="application/rss+xml" title="MoYuCoder" >
                            <span class="fa-stack fa-lg">
                                <i class="fa fa-circle fa-stack-2x"></i>
                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -707,7 +670,7 @@ GO标准语言库
                 </ul>
 		<p class="copyright text-muted">
 
-                    Copyright &copy; NoobCoder 2021
+                    Copyright &copy; MoYuCoder 2021
                     <br>
                     <img src="/img/beian.png"/>
                     <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2021036609号-1</a>

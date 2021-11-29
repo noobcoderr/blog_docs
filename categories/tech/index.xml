@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech on NoobCoder</title>
+    <title>Tech on MoYuCoder</title>
     <link>http://www.moyuto.top/categories/tech/</link>
-    <description>Recent content in Tech on NoobCoder</description>
+    <description>Recent content in Tech on MoYuCoder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 19 May 2021 23:11:43 +0800</lastBuildDate>
@@ -18,6 +18,33 @@
       
       <guid>http://www.moyuto.top/post/2021_05_planings/</guid>
       <description>要总结的系列 《Python热更的原理与应用》 《Python元类的原理与应用》 要思考清楚的问题 如何整理现有系统的全部信息 如何接手/上手一个新项</description>
+    </item>
+    
+    <item>
+      <title>API设计风格之RESTful和RPC风格</title>
+      <link>http://www.moyuto.top/post/api_design_style/</link>
+      <pubDate>Tue, 19 May 2020 23:11:43 +0800</pubDate>
+      
+      <guid>http://www.moyuto.top/post/api_design_style/</guid>
+      <description>API设计风格之RESTful和RPC风格 最近几件事让我对API的设计风格有了更多的认识。 1、开发谷歌支付后端时，需要调用谷歌billing</description>
+    </item>
+    
+    <item>
+      <title>学习计划</title>
+      <link>http://www.moyuto.top/post/target/</link>
+      <pubDate>Tue, 19 May 2020 23:11:43 +0800</pubDate>
+      
+      <guid>http://www.moyuto.top/post/target/</guid>
+      <description>学习计划 方向 云原生 &amp;gt; Saas &amp;gt; docker/k8s &amp;gt; 后端 计划 基础向 1、计算机网络、http、https、tcp/ip 2、数据结构：数组、链表、树、图 3、算法：排序、</description>
+    </item>
+    
+    <item>
+      <title>造轮子之时间轮算法的原理与实现</title>
+      <link>http://www.moyuto.top/post/timewheel/</link>
+      <pubDate>Tue, 19 May 2020 23:11:43 +0800</pubDate>
+      
+      <guid>http://www.moyuto.top/post/timewheel/</guid>
+      <description>造轮子之时间轮算法的原理与实现 背景 前不久在做一个内部错误日志告警的工具服务，具体工作是定时去es内检索项目下的错误日志，并且将返回的内容告警</description>
     </item>
     
     <item>
@@ -36,6 +63,15 @@
       
       <guid>http://www.moyuto.top/post/question_a_day_20200412/</guid>
       <description>每日一问 golang的channel取值问题 golang的野指针问题 golang的数据类型以及内存占用问题 golang有其基本类型以及复合类</description>
+    </item>
+    
+    <item>
+      <title>for range 原理研究</title>
+      <link>http://www.moyuto.top/post/golang_range/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.moyuto.top/post/golang_range/</guid>
+      <description>golang 之 for range 背景 今天在遍历一个切片结构体时，对遍历到的结构体进行更改操作，结束时发现并没有生效，于是对这一现象进行研究。</description>
     </item>
     
     <item>
@@ -261,15 +297,6 @@
       
       <guid>http://www.moyuto.top/post/aseemblylanguage/</guid>
       <description>汇编语言的简单学习与入门 什么是汇编语言(什么是汇编) 我的最初理解 学一个新的知识，先别着急直接看，可以先说说自己的理解，疑问，然后带着自己的理</description>
-    </item>
-    
-    <item>
-      <title>Https原理及双向数字验证</title>
-      <link>http://www.moyuto.top/post/https/</link>
-      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.moyuto.top/post/https/</guid>
-      <description>HTTPS原理及双向数字验证 前言 ​ 一说到加密验证，就涉及到很多的名词与其对应的知识比如对称、非对称加密、公钥、私钥、CA、数字证书、数字签名</description>
     </item>
     
     <item>

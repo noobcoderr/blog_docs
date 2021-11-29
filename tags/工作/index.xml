@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>工作 on NoobCoder</title>
+    <title>工作 on MoYuCoder</title>
     <link>http://www.moyuto.top/tags/%E5%B7%A5%E4%BD%9C/</link>
-    <description>Recent content in 工作 on NoobCoder</description>
+    <description>Recent content in 工作 on MoYuCoder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.moyuto.top/tags/%E5%B7%A5%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>for range 原理研究</title>
+      <link>http://www.moyuto.top/post/golang_range/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.moyuto.top/post/golang_range/</guid>
+      <description>golang 之 for range 背景 今天在遍历一个切片结构体时，对遍历到的结构体进行更改操作，结束时发现并没有生效，于是对这一现象进行研究。</description>
+    </item>
     
     <item>
       <title>程序员述职该怎么写？</title>
