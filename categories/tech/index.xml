@@ -6,10 +6,28 @@
     <description>Recent content in Tech on MoYuCoder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 19 May 2021 23:11:43 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 30 Nov 2021 23:51:43 +0800</lastBuildDate>
     
 	<atom:link href="http://www.moyuto.top/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>hugo云服务器建站</title>
+      <link>http://www.moyuto.top/post/20211130_hugo_nginx/</link>
+      <pubDate>Tue, 30 Nov 2021 23:51:43 +0800</pubDate>
+      
+      <guid>http://www.moyuto.top/post/20211130_hugo_nginx/</guid>
+      <description>基本步骤 通过github来传输静态文件 安装nginx 配置nginx配置 遇到的问题 1、配置好nginx.conf之后，访问所有文件都是返回40</description>
+    </item>
+    
+    <item>
+      <title>文章模板及注意事项</title>
+      <link>http://www.moyuto.top/post/20211130_model/</link>
+      <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.moyuto.top/post/20211130_model/</guid>
+      <description>文章模板及注意事项 字段描述 字段 描述 title 文章标题 subtitle 文章子标题 date 文章创建日期 lastmod 文章最后修改日期 author 文章作者 image 该篇文章的背景图片，目前有2张背景可选，</description>
+    </item>
     
     <item>
       <title>2021年5月计划</title>
